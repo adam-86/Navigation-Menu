@@ -1,0 +1,117 @@
+body
+  width: 1800px
+  max-width: 100%
+  margin: 0
+  padding: 0
+  font-family: 'Dosis', sans-serif
+  background: url('https://images.unsplash.com/photo-1497384401032-2182d2687715?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=242c980b3f14ce636683be72c87a9e7c&auto=format&fit=crop&w=1650&q=80')
+
+header
+  height: 400px
+  margin: 0
+  padding: 0
+
+nav
+  margin: auto
+  width: 500px
+
+.nav_li
+  display: inline-block
+  margin: 3% 3% 5% 20%
+  color: rgb(77, 135, 233)
+
+
+li a
+  text-decoration: none
+  font-size: 16px
+  max-height: 100%
+  display: block
+  color: black
+  &:hover
+    border-bottom: .2px solid black
+
+.caret
+  position: absolute
+  height: 20px
+  width: 20px
+  background: white
+  transform: rotate(45deg)
+  margin-top: -10px
+  box-shadow: -1px -2px 3px rgba(#263c42, 0.6)
+  z-index: 10
+  left: 40%
+  border-radius: .2vw
+
+
+.peace_out
+  display: none
+
+
+#dropdown_container
+  position: relative
+  width: auto
+  transition: .3s all ease-out
+
+
+.dropdowns
+  border-radius: .5vw
+  margin-top: -5%
+  box-shadow: 1px 1px 11px #263C42
+  opacity: 10
+  will-change: height, width, contents
+  background-color: white
+
+  li
+    list-style: none
+    text-decoration: none
+    margin: auto
+    padding: 5% 0 0 5%
+
+  p
+    width: 80%
+    text-align: center
+    padding: 5%
+  h2
+    padding: 5%
+
+
+.dropdown_first
+  left: -1%
+  .dropdown_content
+    &:nth-of-type(1)
+      display: block
+    &:nth-of-type(2)
+    display: none
+    &:nth-of-type(3)
+      display: none
+
+.dropdown_second
+  left: 28%
+  .dropdown_content
+    &:nth-of-type(1)
+      display: none
+    &:nth-of-type(2)
+      display: block
+    &:nth-of-type(3)
+      display: none
+    .caret
+      left: 45%
+
+.dropdown_third
+  left: 51%
+  .dropdown_content
+    &:nth-of-type(1)
+      display: none
+    &:nth-of-type(2)
+    display: none
+    &:nth-of-type(3)
+      display: block
+      .caret
+        left: 43%
+
+
+@keyframes fades-in
+  0%
+    opacity: 0
+  100%
+    opacity: 10
