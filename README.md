@@ -1,4 +1,4 @@
 # Dropdown menu 
-### loosely inspired by the sweet navigation at stripe.com.
+## loosely inspired by the sweet navigation at stripe.com.
 
-## Link: https://adam-86.github.io/navigation-menu/
+## View Project here: https://adam-86.github.io/navigation-menu/
