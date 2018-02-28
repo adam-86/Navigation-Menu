@@ -66,7 +66,11 @@ li a {
     text-align: center;
     padding: 5%; }
   .dropdowns h2 {
+    text-align: center;
     padding: 5%; }
+
+.dropdown_content h2 {
+  text-align: left; }
 
 .dropdown_first {
   left: -1%; }
